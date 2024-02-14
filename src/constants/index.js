@@ -1,11 +1,25 @@
 import {
-   people01, people02, people03, facebook,
-   instagram, twitter, airbnb,
-   binance, coinbase, dropbox, send, shield,
-   star, google, linkedin, deloitte, linkedin2
-   } from "../assets";
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  twitter,
+  airbnb,
+  send,
+  shield,
+  star,
+  google,
+  linkedin,
+  deloitte,
+  linkedin2,
+} from "../assets";
 
 export const navLinks = [
+  {
+    id: "gitrepo",
+    title: "Git Repo",
+  },
   {
     id: "home",
     title: "Home",
@@ -30,7 +44,6 @@ export const navLinks = [
     id: "about us",
     title: "Resources",
   },
- 
 ];
 
 export const features = [
@@ -60,16 +73,14 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
-    content:
-      "Revature set me on the right track to achieving my goals.",
+    content: "Revature set me on the right track to achieving my goals.",
     name: "Parki Patel",
     title: "Revature Alumni",
     img: people01,
   },
   {
     id: "feedback-2",
-    content:
-      "I just got a promotion and I credit Revature with my success.",
+    content: "I just got a promotion and I credit Revature with my success.",
     name: "Anoki Abuela",
     title: "Revature HR Representative",
     img: people02,
@@ -170,7 +181,7 @@ export const footerLinks = [
       },
       {
         name: "11730 Plaza America Dr. Reston, VA 20190",
-      }
+      },
     ],
   },
 ];
